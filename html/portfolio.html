@@ -2,17 +2,71 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-331071-3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-331071-3');
+        </script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel%7CSpinnaker&display=swap">
+        <link rel="stylesheet" href="/css/style.css">
         <title>SAポートフォリオ</title>
     </head>
     <body>
-        <h1>初めまして</h1>
-        <br>
-        <a href="">バス回数券計算アプリ</a>
-        <br>
-        <a href="">データベースを使用したサイト</a>
-        <br>
-        <a href="">HP制作</a>
-        <br>
-        <a href="">Github</a>
+        <header class="global-header">
+            <p id="global-ttl" class="global-ttl">
+                <a href="">
+                    <span class="global-ttl__text">portfolio</span>
+                    <span class="global-ttl__url">aizawa shunta</span>
+                </a>
+                <nav>
+                    <div id="menu-toggle" class="menu-toggle">
+                        <div class="menu-hamburger">
+                            ::before
+                            ::after
+                        </div>
+                        <span class="menu-toggle__desc">
+                            ::before
+                        </span>
+                    </div>
+                    <div id="global-menu" class="global-menu" style="display: none;">
+                        <div class="global-menu__container">
+                            <div class="global-menu__ttl">MENU</div>
+                            <ul class="global-menu__list">
+                                <li>
+                                    <a href="">
+                                        ::before
+                                        <span class="menu-en">PROFILE</span>
+                                        <span class="menu-ja">プロフィール</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        ::before
+                                        <span class="menu-en">PRODACTS</span>
+                                        <span class="menu-ja">成果物</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/Shunta-422/html-practice">
+                                        ::before
+                                        <span class="menu-en">GITHUB</span>
+                                        <span class="menu-ja">コーディング</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div classs="global-menu__footer">
+                                <p>
+                                    <a href="">aizawashunta.jp</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="menu-bg" class="menu-bg"></div>
+                    </div>
+                </nav>
+            </p>
+        </header>
     </body>
 </html>
