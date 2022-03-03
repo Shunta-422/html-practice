@@ -1,15 +1,40 @@
 body{
-    background-color: rgb(66, 20, 110);
+    background-color: rgb(11, 0, 61);
 }
-
+.global-header{
+    position: absolute;
+    width: 100%;
+}
+.gloval-ttl{
+    position: fixed;
+    top: 5vw;
+    left: 6vw;
+    z-index: 100;
+}
 .global-ttl__text{
+    display: block;
+    font-weight: 400;
+    letter-spacing: .08em;
+    margin-bottom: 5px;
     font-size: 50px;
-    color: salmon;
-
+    color: palevioletred;
 }
+
 
 .global-ttl__url{
-    content: "\A";
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .2em;
     font-size: 30px;
-    color: salmon;
+    color: palevioletred;
+}
+
+.menu-en{
+    font-size: 30px;
+    font-weight: 300;
+    color:palevioletred;
+    letter-spacing: .4em;
+}
+.my-hp{
+    color:palevioletred;
 }

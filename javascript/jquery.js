@@ -1,3 +1,3 @@
-$(portfolio).hover(function(){
-    $(portfolio).html("ポートフォリオ");
+$("portfolio").hover(function(){
+    $("portfolio").html("ポートフォリオ");
 });
