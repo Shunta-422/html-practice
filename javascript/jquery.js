@@ -16,7 +16,7 @@ $(function () {
 //     });
 // });
 $(function(){
-    $("#prodacts").on("click", function(){
+    $("#products").on("click", function(){
         $(".is-open").slideToggle();
     });
 })

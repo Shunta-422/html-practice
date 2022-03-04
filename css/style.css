@@ -43,6 +43,10 @@ body{
     color:palevioletred;
 }
 
+#products{
+    cursor: pointer;
+
+}
 .is-open{
     display: none;
 }
