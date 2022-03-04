@@ -42,3 +42,7 @@ body{
 .my-hp{
     color:palevioletred;
 }
+
+.is-open{
+    display: none;
+}
