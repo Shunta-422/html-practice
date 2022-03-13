@@ -21,6 +21,13 @@ $(function(){
     });
 })
 
+//太田追加
+$(function(){
+    $("#teamMember").on("click", function(){
+        $(".is-open02").slideToggle();
+    });
+})
+
 
 $(function () {
     $("#github").hover(function () {
